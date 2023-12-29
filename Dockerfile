@@ -5,9 +5,6 @@ FROM ubuntu:latest
 RUN apt update && \
     apt install -y git nano curl
 
-# Clone the GitHub repository
-RUN git clone https://github.com/PromptEngineer48/Ollama.git
-
 # Install Python 3 and pip
 RUN apt install -y python3 python3-pip
 
